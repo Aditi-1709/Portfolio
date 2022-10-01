@@ -96,41 +96,50 @@ p {
     left:44%;
   }
 
-.bulb {
-    position:absolute;
-    top:36%;
-    left:24.4rem;
-    width:3.5em;
-}
-
-.developer {
-    position:absolute;
-    top:47%;
-    left:84rem;
-    width:4.4rem;
-}
-
 .quote {
     font-size:1.438rem;
     padding:0.125rem;
 }
 
+.a {
+    position: relative;
+    top:15rem;
+}
+
+.bulb {
+    position:absolute;
+    top:6rem;
+    left:24.4rem;
+    width:4.8rem;
+}
 .q1 {
     display:flex;
     position:absolute;
     left:7%;
     top:25%;
-    font-size:90%;
+    font-size:23rem;
     float:left;
 }  
+
+.b {
+    position:relative;
+     top: 21rem;
+}
+
+.developer {
+    position:absolute;
+    top:6rem;
+    left:84rem;
+    width:4.8rem;
+}
 
 .q2 {
     display:flex;
     position:absolute;
     top:36%;
     left:73%;
-    font-size:90%;
-    float:right;
+    font-size:23rem;
+   
 }
 
 .desc {
@@ -277,9 +286,14 @@ div.profile {
     }
     .q1 {
     font-size:80%;
+    top:25%;
     }
     .q2 {
     font-size:80%;
+    top:34%;
+    }
+    .bulb{
+    top:
     }
 }
 
