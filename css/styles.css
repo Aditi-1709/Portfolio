@@ -24,6 +24,10 @@ p {
     font-family: 'Montserrat', sans-serif;
 }
 
+.top {
+    position:relative;
+    top:7rem;
+}
 .top-container {
     background-color:#eaeaea84;
     padding:1.25rem;
