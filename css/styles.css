@@ -273,8 +273,8 @@ div.profile {
     left:45%
 }
 
-/* Extra desktop devices */
-@media only screen and (min-width: 1024px) and (max-width: 1920px)
+/* Desktop devices of width 1600-1920 px */
+@media only screen and (min-width: 1600px) and (max-width: 1920px)
 {
    .top-container {
     size-adjust:50%;
@@ -286,28 +286,51 @@ div.profile {
    .bottom-container{
     text-align: center;
     font-size: medium;
-    }
-    .q1 {
+   }
+   .q1 {
     font-size:80%;
     top:25%;
     left:7%;
-
-    }
-    .q2 {
+   }
+   .q2 {
     font-size:80%;
     top:34%;
-    }
-    
-    .a {
+   }
+   .a {
     align-self: auto;
-    
-    }
- 
-    .b {
+   }
+   .b {
     align-self: auto;
-
-    }
-    
-
+   }
 }
 
+/* Devices  */
+@media only screen and (min-width:1024px) and (max-width:1600px) and (orientation:portrait)
+{
+    .top-container {
+        size-adjust:50%;
+       }
+       .mid-container{
+       text-align: center;
+       font-size: medium;
+       }
+       .bottom-container{
+        text-align: center;
+        font-size: medium;
+       }
+       .q1 {
+        font-size:80%;
+        top:25%;
+        left:7%;
+       }
+       .q2 {
+        font-size:80%;
+        top:34%;
+       }
+       .a {
+        align-self: auto;
+       }
+       .b {
+        align-self: auto;
+       }
+}
