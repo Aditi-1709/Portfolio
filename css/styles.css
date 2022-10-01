@@ -273,7 +273,7 @@ div.profile {
 @media only screen and (min-width: 1024px) and (max-width: 1920px)
 {
    .top-container {
-
+    align-self: center;
     size-adjust:50%;
    }
    .mid-container{
@@ -284,16 +284,17 @@ div.profile {
     text-align: center;
     font-size: medium;
     }
-    .q1 {
+    .a {
     font-size:80%;
     top:25%;
+    left:7%;
+
     }
-    .q2 {
+    .b {
     font-size:80%;
     top:34%;
     }
-    .bulb{
-    top:
-    }
+    
+    
 }
 
