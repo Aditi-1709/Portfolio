@@ -256,3 +256,20 @@ div.profile {
     top:54%;
     left:45%
 }
+
+/* Extra desktop devices */
+@media only screen and (min-width: 1024px) and (orientation: landscape)
+{
+   .top-container {
+    text-align: center;
+    font-size:medium;
+   }
+   .mid-container{
+   text-align: center;
+   font-size: medium;
+   }
+   .bottom-container{
+    text-align: center;
+    font-size: medium;
+    }
+}
