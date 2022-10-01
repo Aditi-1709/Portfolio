@@ -319,13 +319,13 @@ div.profile {
         font-size: medium;
        }
        .q1 {
-        font-size:80%;
-        top:25%;
-        left:7%;
+        font-size:auto;
+        align-content: auto;
        }
        .q2 {
-        font-size:80%;
-        top:34%;
+        font-size:auto;
+        align-content: auto;
+
        }
        .a {
         align-self: auto;
