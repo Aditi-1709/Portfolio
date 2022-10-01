@@ -261,9 +261,8 @@ div.profile {
 @media only screen and (min-width: 1024px) and (max-width: 1920px)
 {
    .top-container {
-    text-align: center;
-    font-size:medium;
-    size-adjust:30%;
+    font-size:2 rem;
+    size-adjust:50%;
    }
    .mid-container{
    text-align: center;
@@ -274,8 +273,10 @@ div.profile {
     font-size: medium;
     }
     .quote1 {
-    font-size: medium;
-
-    
+    font-size:80%;
+    }
+    .quote2 {
+        font-size:80%;
+        }
     }
 }
