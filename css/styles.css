@@ -115,19 +115,22 @@ p {
     padding:0.125rem;
 }
 
-.quote1 {
+.q1 {
+    display:flex;
     position:absolute;
     left:6%;
     top:30%;
-    height:1.25rem;
-    font-size:93%;
+    font-size:90%;
+    float:left;
 }  
 
-.quote2 {
+.q2 {
+    display:flex;
     position:absolute;
     top:36%;
     left:70%;
-    font-size:93%;
+    font-size:90%;
+    float:right;
 }
 
 .desc {
@@ -261,7 +264,7 @@ div.profile {
 @media only screen and (min-width: 1024px) and (max-width: 1920px)
 {
    .top-container {
-    font-size:2 rem;
+
     size-adjust:50%;
    }
    .mid-container{
@@ -272,11 +275,11 @@ div.profile {
     text-align: center;
     font-size: medium;
     }
-    .quote1 {
+    .q1 {
     font-size:80%;
     }
-    .quote2 {
-        font-size:80%;
-        }
+    .q2 {
+    font-size:80%;
     }
+}
 
