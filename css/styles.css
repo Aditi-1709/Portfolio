@@ -106,6 +106,7 @@ p {
 }
 
 .a {
+    display:flex;
     position: relative;
     top:15rem;
 }
@@ -126,6 +127,7 @@ p {
 }  
 
 .b {
+    display:flex;
     position:relative;
      top: 21rem;
 }
@@ -305,7 +307,7 @@ div.profile {
 }
 
 /* Devices  */
-@media only screen and (min-width:1024px) and (max-width:1600px) and (orientation:portrait)
+@media only screen and (min-width:1024px) and (max-width:1600px)
 {
     .top-container {
         size-adjust:50%;
@@ -319,16 +321,14 @@ div.profile {
         font-size: medium;
        }
        .q1 {
-        font-size:2rem;
-        align-content: auto;
+        font-size: medium;
        }
        .q2 {
-        font-size:2rem;
-        align-content: auto;
-
+        font-size: medium;
        }
        .a {
         align-self: auto;
+        
        }
        .b {
         align-self: auto;
