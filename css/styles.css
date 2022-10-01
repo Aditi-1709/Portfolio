@@ -258,11 +258,12 @@ div.profile {
 }
 
 /* Extra desktop devices */
-@media only screen and (min-width: 1024px) and (orientation: landscape)
+@media only screen and (min-width: 1024px) and (max-width: 1920px)
 {
    .top-container {
     text-align: center;
     font-size:medium;
+    size-adjust:30%;
    }
    .mid-container{
    text-align: center;
@@ -271,5 +272,10 @@ div.profile {
    .bottom-container{
     text-align: center;
     font-size: medium;
+    }
+    .quote1 {
+    font-size: medium;
+
+    
     }
 }
