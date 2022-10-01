@@ -328,9 +328,11 @@ div.profile {
        }
        .a {
         align-self: auto;
-        
        }
        .b {
         align-self: auto;
+       }
+       .bulb {
+        width:1.5%;
        }
 }
