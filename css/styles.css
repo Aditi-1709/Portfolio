@@ -284,17 +284,27 @@ div.profile {
     text-align: center;
     font-size: medium;
     }
-    .a {
+    .q1 {
     font-size:80%;
     top:25%;
     left:7%;
 
     }
-    .b {
+    .q2 {
     font-size:80%;
     top:34%;
     }
     
+    .a {
+    align-self: auto;
     
+    }
+ 
+    .b {
+    align-self: auto;
+
+    }
+    
+
 }
 
