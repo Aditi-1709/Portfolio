@@ -1,0 +1,72 @@
+
+.profile { 
+    width:100%;
+    height:17rem;
+    margin-top:2%;
+    margin-bottom:2%;
+}
+.item1 {
+    place-self: center;
+}
+.coding{
+    display: grid;
+    position:absolute;
+    top:auto;
+}
+
+.coding1{
+    
+    position:absolute;
+    top:190%;
+    right:77%;
+}
+
+.img4 {
+    
+    position:absolute;
+    top:290%;
+    left:11%;
+    width:9rem;
+}
+
+.leadership {
+    display: grid;
+    position:absolute;
+    top:300%;
+    left:40%;
+    width:20%;
+}
+
+.leadership1 {
+    position:absolute;
+    top:350%;
+    left:39.5%
+}
+
+.img5 {
+    position:absolute;
+    top:440%;
+    width:9rem;
+    left:46%
+}
+
+.communication {
+    display: grid;
+    position:absolute;
+    top:150%;
+    right:11%;
+}
+
+.communication1 {
+    position:absolute;
+    top:190%;
+    right:4%;
+   
+}
+
+.img6 {
+    position:absolute;
+    top:300%;
+    right:12.5%;
+    width:9rem;
+}
