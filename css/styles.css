@@ -1,5 +1,4 @@
 body {
-    background-color:#FF2E63;
     text-align:center;font-family: 'Merriweather', serif;
     overflow-x: hidden;
 }
@@ -27,13 +26,20 @@ p {
 
 /* Containers division of website */
 
-/* I am Aditi programmer w/o the quotes and all */
-
 .top-container {
+    height:40rem;
+    width:100%;
+    background-color:#FF2E63;
+    left: 0px;
+}
+
+/* I am Aditi programmer */
+
+.desc-container {
     background-color:#eaeaea84;
     padding:1.25rem;
     position:absolute;
-    left:37%;
+    left:35%;
     top:18%;
     font-size:2.125rem;
     width:28.125rem;
@@ -81,7 +87,7 @@ p {
 
 .img2 {
     height:9rem;
-    left:87%;
+    left:85%;
     top:5%;
     border-right:1.875rem;
     position:absolute;
@@ -92,52 +98,56 @@ p {
 /* Quotes */
 
 .quote {
+    display:flex;
     font-size:1.438rem;
     padding:0.125rem;
+    width:100%;
+    height:25rem;
+    position: relative;
+    top:10rem;
 }
 
 /* Left  */
 
 .a {
-    display:flex;
     position: relative;
-    top:15rem;
+    left:5.5rem;
+    width:27rem;
 }
 
-.bulb {
-    position:absolute;
-    top:6rem;
-    left:25rem;
-    width:4.8rem;
-}
 .q1 {
-    display:flex;
-    position:absolute;
-    left:8%;
-    top:25%;
+    position:relative;
+    top:22%;
     font-size:23rem;
+    right:17%;
    
 }  
+
+.bulb {
+    position:relative;
+    top:5rem;
+    left:5rem;
+    width:4.8rem;
+}
 
 /* Right */
 
 .b {
-    display:flex;
     position:relative;
-     top: 21rem;
+    top:5rem;
+    left:28rem;
 }
 
 .developer {
-    position:absolute;
-    top:6rem;
-    left:86rem;
+    position:relative;
+    top:8rem;
+    left:23rem;
     width:4.8rem;
 }
 
 .q2 {
-    display:flex;
-    position:absolute;
-    top:36%;
+    position:relative;
+    top:30%;
     left:75%;
     font-size:23rem;
    
@@ -183,10 +193,12 @@ p {
 .text2 {
     position:absolute;
     top:20%;
-    left:34%; 
+    left:32%; 
 }
 
 .skills {
+    position: relative;
+    left:2rem;
     height: 10rem;
     width:100%;   
 }
@@ -202,9 +214,8 @@ p {
 .wrapper {
     display: flex;
     width:100%;
-    max-width: 40rem;
     top:20rem;
-    height:30rem;
+    height:90rem;
     position:absolute;
     top:30rem;
 }
@@ -217,26 +228,24 @@ p {
 }
 
 .one {
-    
-    margin-left: 2.5rem;
+    position: relative;
     margin-top: -2rem;
+    align-items: center;
 }
 
 .coding{
    position:relative;
-   text-align: center;
    bottom:1%;
 }   
 
 .coding1{
     position:relative;
-    text-align: center;
     bottom:0%;
 }
 
 .img4 {
     position:relative;
-    left:5%;
+    left:4%;
     width:9rem;
     top:60%;
 }
@@ -244,16 +253,16 @@ p {
 /* 2nd: Leadership */
 
 .two {
-   
+   position: relative;
     margin-left: 12rem;
     margin-top: 27rem;;
+    align-items: center;
 }
 
 .leadership {
     display:flex;
     position:relative;
     top:-25%;
-    text-align: center;
     left:40%;
 }
 
@@ -261,7 +270,6 @@ p {
     display:flex;
     position:relative;
     top:-22%;
-    text-align: center;
     left:6%;
 }
 
@@ -276,8 +284,6 @@ p {
 
 .three {
     
-    margin-left: 11rem;
-    margin-right: 2.5rem;
     margin-top: -2rem;
 }
 
@@ -354,9 +360,9 @@ p {
 }
 
 /* Desktop devices of width 1600-1920 px */
-@media only screen and (min-width: 1600px) and (max-width: 1920px)
+@media only screen  and (min-width: 1920px)
 {
-   .top-container {
+   .desc-container {
     size-adjust:50%;
    }
    .mid-container{
@@ -385,10 +391,10 @@ p {
 }
 
 /* Devices  */
-@media only screen and (min-width:1024px) and (max-width:1600px)
+@media only screen and (min-width:1024px) and (max-width:1920px)
 {
-    .top-container {
-        size-adjust:50%;
+    .desc-container {
+        height: max-content;
        }
        .mid-container{
        text-align: center;
@@ -410,7 +416,33 @@ p {
        .b {
         align-self: auto;
        }
-       .bulb {
-        width:1.5%;
-       }
+      .bulb {
+        width:4rem;
+      }
+      .developer {
+        width:4rem;
+      }
+      .one {
+        left:0%;
+        width:20rem;
+      }
+      .two {
+        left:-8%;
+        width:20rem;
+      }
+      .three {
+        position: relative;
+        right:7.5%;
+        width:20rem;
+      }
+      
+      .skill {
+        position: relative;
+        left:1.95rem;
+      }
+     .wrapper {
+       height:max-content;
+     }
+     
+
 }
